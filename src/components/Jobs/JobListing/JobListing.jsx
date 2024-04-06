@@ -23,7 +23,7 @@ const JobListing = (props) => {
         <FaMapMarker className="text-lg" />
         {props.location}{" "}
       </p>
-      <Link to={`/jobs/${props.id}`} className="w-full p-2 bg-cyan-300 text-white rounded">
+      <Link to={`/jobs/${props.id}`} className="w-full text-center text-md w-[80%] mx-auto font-bold p-2 bg-cyan-300 text-white rounded">
         Apply
       </Link>
     </div>
