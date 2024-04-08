@@ -1,4 +1,5 @@
-{"jobs":[
+{
+  "jobs": [
     {
       "id": "1",
       "title": "Senior React Developer",
@@ -82,5 +83,34 @@
         "contactEmail": "contact@ipsumlorem.com",
         "contactPhone": "555-555-5555"
       }
+    },
+    {
+      "id": "97d6",
+      "type": "Full-time",
+      "title": "dwdaw",
+      "location": "Masr",
+      "description": "dadawd",
+      "salary": "$332 - $21312",
+      "company": {
+        "name": "fsa",
+        "description": "fsafsa",
+        "contactEmail": "dang@gmail.com",
+        "contactPhone": "555-322-123-543"
+      }
+    },
+    {
+      "id": "36cc",
+      "type": "Full-time",
+      "title": "Senior Backend Developer",
+      "location": "Cairo, Egypt",
+      "description": "As a Senior Backend Engineer at PeakAI, you will be pivotal in the development and optimization of our platform’s backend functionalities. Your expertise in server-side, alongside your knowledge of REST APIs, microservices, containerization with Docker, and Kubernetes, will drive the creation of robust, scalable, and secure backend services. Your contributions will support our mission of leveraging AI in mental health support, focusing on the mental well-being and performance of coaches and athletes.",
+      "salary": "$25000 - $70000",
+      "company": {
+        "name": "PeakAI",
+        "description": "PeakAI is an early-stage startup pioneering the use of artificial intelligence in mental health support for coaches and athletes. The idea for PeakAI was born from a unique collaboration between experts in psycholinguistics, sports science, and technology, who realized the transformative impact they could have by combining their expertise. They sought to address the often under-appreciated power of the mind in sports performance, using AI to analyze psycholinguistic patterns and create effective, scalable solutions for athletes.\n\n",
+        "contactEmail": "peakAI@gmail.com",
+        "contactPhone": "500-332-553-213"
+      }
     }
-  ]}
+  ]
+}

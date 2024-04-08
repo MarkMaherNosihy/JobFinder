@@ -21,8 +21,11 @@ const Jobs = ({isHomePage}) => {
   }, [])
 
   return (
-    <div className="flex flex-col items-center">
-      <div className="flex justify-center gap-10 flex-wrap ">
+    <div className="flex flex-col w-full px-4">
+      <div className={isHomePage ? "flex flex-col items-center  w-full gap-10 flex-wrap" :
+      "flex flex-col items-center md:pl-[300px] w-full gap-10 flex-wrap"
+    }>
+      {!isHomePage && <h1 className="text-3xl font-bold text-center py-5">All jobs</h1>}
         { loading ? <BeatLoader className="p-5"/> : jobs.map((job) => (
           <JobListing
             key={job.id}

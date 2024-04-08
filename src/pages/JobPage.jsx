@@ -9,7 +9,7 @@ const JobPage = (props) => {
 
 
   return (
-    <div className="px-[2em] pt-[8em] grid grid-cols-1 lg:grid-cols-3 gap-10" style={{gridTemplateRows: "200px auto auto"}}>
+    <div className="md:px-[2em] md:pt-[5em] grid grid-cols-1 lg:grid-cols-3 gap-10" style={{gridTemplateRows: "200px auto auto"}}>
        
         <div className="p-[2em] row-span-1 col-span-1 lg:col-start-1 lg:col-end-3 bg-white shadow-md" >
         <p className="text-md">{job.type}</p>
