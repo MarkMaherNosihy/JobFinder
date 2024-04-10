@@ -3,8 +3,10 @@ import { NavLink, Link } from "react-router-dom";
 import { AiOutlineClose, AiOutlineMenu, AiFillHome } from "react-icons/ai";
 import { BsClipboard } from "react-icons/bs";
 import { RiAddBoxFill } from "react-icons/ri";
+import { useAuth } from "../../contexts/AuthContext";
 
 const Header = (props) => {
+  const {currentUser} = useAuth();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const handleMenuChange = () => {
@@ -54,6 +56,8 @@ const Header = (props) => {
               Post a job
             </NavLink>
           </li>
+          {currentUser &&<p className="text-white">Hello {currentUser.email}</p> }
+
         </ul>
         {/* Mobile */}
         <div
